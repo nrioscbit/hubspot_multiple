@@ -1,1 +1,42 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+ 
+    <script>
+       !function(e){var o=document.getElementsByTagName("script")[0];if("object"==typeof e.ClearbitForHubspot)return console.log("Clearbit For HubSpot included more than once"),!1;e.ClearbitForHubspot={},e.ClearbitForHubspot.forms=[],e.ClearbitForHubspot.addForm=function(o){var t=o[0];"function"==typeof e.ClearbitForHubspot.onFormReady?e.ClearbitForHubspot.onFormReady(t):e.ClearbitForHubspot.forms.push(t)};var t=document.createElement("script");t.async=!0,t.src="https://hubspot.clearbit.com/v1/forms/pk_50aa4b11683c3635fce73d443e5c26ab/forms.js",o.parentNode.insertBefore(t,o),e.addEventListener("message",function(o){if("hsFormCallback"===o.data.type&&"onFormReady"===o.data.eventName)if(document.querySelectorAll('form[data-form-id="'+o.data.id+'"]').length>0)e.ClearbitForHubspot.addForm(document.querySelectorAll('form[data-form-id="'+o.data.id+'"]'));else if(document.querySelectorAll("iframe.hs-form-iframe").length>0){document.querySelectorAll("iframe.hs-form-iframe").forEach(function(t){t.contentWindow.document.querySelectorAll('form[data-form-id="'+o.data.id+'"]').length>0&&e.ClearbitForHubspot.addForm(t.contentWindow.document.querySelectorAll('form[data-form-id="'+o.data.id+'"]'))})}})}(window);
+    </script>
+
+  </head>
+  <body>
+    <h1> Multiple Hubspot Forms </h1>
+
+	
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+	
+	    <div id = 'form1'>
+<script>
+  hbspt.forms.create({
+	  
+	
+	portalId: "9299162",
+	formId: "c8919305-2e0d-4a6b-8128-ad544c2f829a"
+});
+</script>
+	
+
+<script>
+  hbspt.forms.create({
+	  
+	
+	portalId: "9299162",
+	formId: "c8919305-2e0d-4a6b-8128-ad544c2f829a"
+});
+</script>
+
+	  </div>
+   
+
+  </body>
+
+</html>
